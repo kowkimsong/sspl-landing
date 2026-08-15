@@ -60,7 +60,7 @@ const DISTRICTS = [
   "Chua Chu Kang", "Tengah",
 ];
 
-export function HyroxChallenge() {
+export function SSPL() {
   return (
     <main className="pl-shell">
       <style>{`
