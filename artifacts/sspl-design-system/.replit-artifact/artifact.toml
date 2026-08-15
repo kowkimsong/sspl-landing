@@ -1,0 +1,19 @@
+kind = "design-system"
+previewPath = "/sspl-design-system/"
+title = "SSPL Design System"
+description = "Design system for the Singapore Seniors Pickleball League — a navy-and-yellow identity built for credibility, legibility, and senior audiences. Playfair Display for editorial headings, Source Sans 3 for clear body text."
+version = "1.0.0"
+id = "artifacts/sspl-design-system"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/sspl-design-system/" ]
+localPort = 20779
+
+[services.development]
+run = "pnpm --filter @workspace/sspl-design-system run dev"
+
+[services.env]
+PORT = "20779"
+BASE_PATH = "/sspl-design-system/"
