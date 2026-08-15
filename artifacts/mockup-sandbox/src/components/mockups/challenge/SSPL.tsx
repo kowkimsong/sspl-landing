@@ -115,7 +115,7 @@ export function SSPL() {
         .pl-hero{
           position:relative;overflow:hidden;
           height:340px;
-          background:var(--navy2) url('/__mockup/images/sspl-hero.jpg') center 30% / cover no-repeat
+          background:var(--navy2) url('${import.meta.env.BASE_URL}images/sspl-hero.jpg') center 30% / cover no-repeat
         }
         /* photo overlay: dark gradient for text legibility */
         .pl-hero:before{
